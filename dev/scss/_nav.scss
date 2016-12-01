@@ -1,0 +1,35 @@
+.nav{
+  float: right;
+  margin-right: 4px;
+}
+
+.nav-list{
+  margin: 10px 0;
+  height: 56px;
+}
+
+.nav-list__item{
+  display: inline-block;
+}
+
+.nav-list__link{
+  display: table-cell;
+  vertical-align: middle;
+  height: 56px;
+  padding: 0 25px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-shadow: 0 1px 30px rgba(8, 35, 63, 0.5);
+  transition: all 0.4s;
+}
+
+.nav-list__link:hover{
+  color: #000;
+  background-color: #ffcc01;
+  transition: all 0.4s;
+}
