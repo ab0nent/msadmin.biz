@@ -3,16 +3,16 @@
   margin-right: 4px;
 }
 
-.nav-list{
+.nav__list{
   margin: 10px 0;
   height: 56px;
 }
 
-.nav-list__item{
+.nav__item{
   display: inline-block;
 }
 
-.nav-list__link{
+.nav__link{
   display: table-cell;
   vertical-align: middle;
   height: 56px;
@@ -28,7 +28,7 @@
   transition: all 0.4s;
 }
 
-.nav-list__link:hover{
+.nav__link:hover{
   color: #000;
   background-color: #ffcc01;
   transition: all 0.4s;

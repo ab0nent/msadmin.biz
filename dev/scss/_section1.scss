@@ -15,27 +15,3 @@
   color: #ffffff;
   text-shadow: 0 0 30px rgba(13, 36, 62, 0.7);
 }
-
-.top__button{
-  margin: 65px auto;
-  display: block;
-  width: 337px;
-  height: 64px;
-  border-radius: 4px;
-  background-color: #1e88f5;
-  box-shadow: 0 0 30px 0 rgba(30, 136, 245, 0.9);
-  line-height: 64px;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: center;
-  letter-spacing: 1px;
-  color: #ffffff;
-  transition: all 0.4s;
-}
-
-.top__button:hover{
-  background-color: #1e56f6;
-  transition: all 0.4s;
-}
