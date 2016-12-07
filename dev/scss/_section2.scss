@@ -18,17 +18,10 @@
   color: #0d253e;
 }
 
-.workflow__list{
-  list-style: none;
-  margin-top: 50px;
-  font-size: 0;
-}
-
 .workflow__item{
   display: block;
   float: left;
   margin-bottom: 40px;
-  width: 33.3%;
   height: 200px;
   text-align: center;
 
@@ -40,18 +33,8 @@
 
 .workflow__link{
   position: relative;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  background-color: #f5f8fc;
-  border: solid 6px #ffffff;
-  border-radius: 50%;
   text-align: center;
   font-size: 18px;
-}
-
-.workflow__img{
-  margin-top: 34px;
 }
 
 .workflow__number{

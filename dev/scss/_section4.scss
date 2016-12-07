@@ -98,14 +98,12 @@
 
 
 .price__help-list{
-  margin: 50px 0;
-  list-style: none;
-  font-size: 0;
+  margin-bottom: 50px;
 }
 
 .price__help-item{
   display: inline-block;
-  width: 33.3%;
+
   & div{
     opacity: 0.4;
     font-size: 22px;
@@ -113,17 +111,4 @@
     text-align: center;
     color: #0d253e;
   }
-}
-
-.price__help-link{
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  background-color: #f5f8fc;
-  border-radius: 50%;
-  border: solid 6px #ffffff;
-}
-
-.price__help-img{
-  margin-top: 34px;
 }
