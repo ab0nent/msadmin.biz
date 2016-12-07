@@ -16,20 +16,26 @@
         <a href="#top" class="header__logo js-scrolled">
             <img src="img/ic_cloud_done_white_48px.svg" class="header__image">
         </a>
-        <a href="" class="btn btn_contacts">Contact us</a>
+        <a href="" class="btn btn_contacts js-contact">Contact us</a>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#workflow" class="nav__link js-scrolled">Workflow</a></li>
                 <li class="nav__item"><a href="#services" class="nav__link js-scrolled">Services</a></li>
                 <li class="nav__item"><a href="#price" class="nav__link js-scrolled">Price</a></li>
             </ul>
+            <a class="btn btn_up js-scrolled" href="#top">
+                <svg fill="#FFFFFF" height="40" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </a>
         </nav>
     </div>
 </header>
 
 <section id="top" class="top">
     <h1 class="top__header">IT consulting<br>for business and technology services</h1>
-    <a href="#" class="btn btn_primary">GET AN IT CONSULTANT</a>
+    <a href="" class="btn btn_primary js-contact">GET AN IT CONSULTANT</a>
 </section>
 
 <section id="workflow" class="workflow main-width">
@@ -39,7 +45,7 @@
             employee(s) is not required or necessary</h2>
         <ul class="workflow__list clearfix">
             <li class="workflow__item">
-                <a href="#" class="workflow__link">
+                <a href="" class="workflow__link js-contact">
                     <img src="img/workflow/specification.svg" alt="" class="workflow__img">
                     <span class="workflow__number">1</span>
                 </a>
@@ -48,7 +54,7 @@
                 </div>
             </li>
             <li class="workflow__item">
-                <a href="#" class="workflow__link">
+                <a href="" class="workflow__link js-contact">
                     <img src="img/workflow/proposal.svg" alt="" class="workflow__img">
                     <span class="workflow__number">2</span>
                 </a>
@@ -57,7 +63,7 @@
                 </div>
             </li>
             <li class="workflow__item">
-                <a href="#" class="workflow__link">
+                <a href="" class="workflow__link js-contact">
                     <img src="img/workflow/sign.svg" alt="" class="workflow__img">
                     <span class="workflow__number">3</span>
                 </a>
@@ -66,7 +72,7 @@
                 </div>
             </li>
             <li class="workflow__item">
-                <a href="#" class="workflow__link">
+                <a href="" class="workflow__link js-contact">
                     <img src="img/workflow/implement.svg" alt="" class="workflow__img">
                     <span class="workflow__number">4</span>
                 </a>
@@ -75,7 +81,7 @@
                 </div>
             </li>
             <li class="workflow__item">
-                <a href="#" class="workflow__link">
+                <a href="" class="workflow__link js-contact">
                     <img src="img/workflow/handover.svg" alt="" class="workflow__img">
                     <span class="workflow__number">5</span>
                 </a>
@@ -84,7 +90,7 @@
                 </div>
             </li>
             <li class="workflow__item">
-                <a href="#" class="workflow__link">
+                <a href="" class="workflow__link js-contact">
                     <img src="img/workflow/payment.svg" alt="" class="workflow__img">
                     <span class="workflow__number">6</span>
                 </a>
@@ -102,7 +108,7 @@
         <div class="main-width">
             <h1 class="services__header">Our main services<br>for your business</h1>
 
-            <a href="" class="btn btn_services">GET SERVICES</a>
+            <a href="" class="btn btn_services js-contact">GET SERVICES</a>
 
             <ul class="services__list">
                 <li class="services__item">
@@ -140,7 +146,7 @@
     <h1 class="price__header">Consulting fees</h1>
     <h2 class="price__description">
         Under normal circumstances a fee for IT consulting is measured on a per day, per consultant basis.<br>
-        There is however an alternative option; fixed fee IT consulting.<br>
+        There is however an alternative option: fixed fee IT consulting.<br>
         A fixed fee IT consulting contract applies only to projects which are well defined.
     </h2>
     <div class="clearfix">
@@ -156,7 +162,7 @@
                 <li class="price__item">Implementation</li>
                 <li class="price__item">Optimization</li>
             </ul>
-            <a href="" class="btn btn_order">CONTACT SALES</a>
+            <a href="" class="btn btn_order js-contact">CONTACT SALES</a>
         </div>
         <div class="price__box price__box_fixed">
             <div class="price__type">
@@ -170,25 +176,25 @@
                 <li class="price__item">Implementation</li>
                 <li class="price__item">Optimization</li>
             </ul>
-            <a href="" class="btn btn_order">CONTACT SALES</a>
+            <a href="" class="btn btn_order js-contact">CONTACT SALES</a>
         </div>
     </div>
 
     <ul class="price__help-list ">
         <li class="price__help-item">
-            <a href="" class="price__help-link">
+            <a href="" class="price__help-link js-contact">
                 <img src="img/help/maximize.svg" alt="" class="price__help-img">
             </a>
             <div>Maximize Return</div>
         </li>
         <li class="price__help-item">
-            <a href="" class="price__help-link">
+            <a href="" class="price__help-link js-contact">
                 <img src="img/help/optimize.svg" alt="" class="price__help-img">
             </a>
             <div>Optimize Security</div>
         </li>
         <li class="price__help-item">
-            <a href="" class="price__help-link">
+            <a href="" class="price__help-link js-contact">
                 <img src="img/help/minimize.svg" alt="" class="price__help-img">
             </a>
             <div>Minimize Risk</div>
@@ -199,16 +205,34 @@
 
 <footer class="footer">
     <div class="main-width">
-        footer
+        <div class="footer__name">© 2004-2017 «MS ADMIN»</div>
+        <div class="footer__contacts">+380 66 758 27 01<br>info@msadmin.biz</div>
     </div>
 </footer>
 
-<a class="btn btn_up js-scrolled" href="#top">
-    <svg fill="#FFFFFF" height="40" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
-        <path d="M0 0h24v24H0z" fill="none"></path>
-    </svg>
-</a>
+<div class="modal">
+    <div class="modal__content">
+        <div class="modal__header">
+            <span class="modal__close">×</span>
+            <h2>Contact us</h2>
+        </div>
+        <div class="modal__body">
+            <ul class="modal__list">
+                <li class="modal__item">
+                    <img src="img/modal/call.svg" alt="" class="modal__img">
+                    <div>+380 66 758 27 01</div>
+                </li>
+                <li class="modal__item">
+                    <img src="img/modal/email.svg" alt="" class="modal__img">
+                    <div>info@msadmin.biz</div>
+                </li>
+            </ul>
+        </div>
+        <div class="modal__footer">
+            <h3>© 2004-2017 «MS ADMIN»</h3>
+        </div>
+    </div>
+</div>
 
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
@@ -216,6 +240,6 @@
     new WOW().init();
 </script>
 <script type="text/javascript" src="js/scroll.js"></script>
-
+<script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>

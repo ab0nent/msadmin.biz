@@ -1,0 +1,27 @@
+.footer{
+  width: 100%;
+  height: 76px;
+  background-color: #455466;
+  color: #ffffff;
+  text-shadow: 0 0 50px #fff;
+}
+
+.footer__contacts,
+.footer__name{
+  height: 100%;
+}
+
+
+.footer__name{
+  float: left;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 25px;
+}
+
+.footer__contacts{
+  float: right;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 15px 25px;
+}
