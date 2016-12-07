@@ -9,12 +9,32 @@
     &:last-child .list__link{
       background-color: #1e88f5;
     }
+
+    & div{
+      font-size: 18px;
+      color: #0d253e;
+      opacity: 0.4;
+    }
   }
 
   & .list__link{
     position: relative;
     text-align: center;
     font-size: 18px;
+
+    & span{
+      position: absolute;
+      top:0;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ffcc01;
+      color: #ffffff;
+      line-height: 20px;
+      padding: 10px 0;
+      text-align: center;
+    }
   }
 }
 
@@ -36,24 +56,4 @@
   line-height: 1.36;
   text-align: center;
   color: #0d253e;
-}
-
-.workflow__number{
-  position: absolute;
-  top:0;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #ffcc01;
-  color: #ffffff;
-  line-height: 20px;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.workflow__definition{
-  font-size: 18px;
-  color: #0d253e;
-  opacity: 0.4;
 }
