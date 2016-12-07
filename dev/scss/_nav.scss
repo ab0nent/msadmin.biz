@@ -13,23 +13,19 @@
 }
 
 .nav__link{
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
-  height: 56px;
-  padding: 0 25px;
+  line-height: 20px;
+  padding: 18px 25px;
   border-radius: 4px;
   font-size: 18px;
   font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 1px;
   color: #ffffff;
   text-shadow: 0 1px 30px rgba(8, 35, 63, 0.5);
   transition: all 0.4s;
-}
-
-.nav__link:hover{
-  color: #000;
-  background-color: #ffcc01;
-  transition: all 0.4s;
+  &:hover {
+    color: #000;
+    background-color: #ffcc01;
+    transition: all 0.4s linear;
+  }
 }

@@ -1,5 +1,5 @@
 .workflow__header{
-  padding-top: 131px;
+  padding-top: 85px;
   font-size: 38px;
   font-weight: 300;
   font-style: normal;
@@ -13,52 +13,63 @@
   opacity: 0.4;
   font-size: 22px;
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.36;
   text-align: center;
   color: #0d253e;
 }
 
-
-.workflow__chart{
-  padding: 15px;
-}
-
-.workflow__box_first, .workflow__box_second{
-  margin: 0 auto;
-  width: 80%;
-  height: 123px;
-  border-top: dotted 4px #e8edf2;
-  border-bottom: dotted 4px #e8edf2;
-  background-color: #ffffff;
-}
-
-.workflow__box_first{
-  float: right;
-  border-right: dotted 4px #e8edf2;
-  border-radius: 0 100px  100px 0;
-}
-
-.workflow__box_second{
-  float: left;
-  margin: -4px;
-  border-left: dotted 4px #e8edf2;
-  border-radius: 100px 0 0 100px;
-}
-
 .workflow__list{
   list-style: none;
+  margin-top: 50px;
+  font-size: 0;
 }
 
 .workflow__item{
+  display: block;
+  float: left;
+  margin-bottom: 40px;
+  width: 33.3%;
+  height: 200px;
+  text-align: center;
+
+  &:first-child .workflow__link,
+  &:last-child .workflow__link{
+    background-color: #1e88f5;
+  }
+}
+
+.workflow__link{
+  position: relative;
   display: inline-block;
   width: 150px;
   height: 150px;
   background-color: #f5f8fc;
   border: solid 6px #ffffff;
   border-radius: 50%;
-  line-height: 150px;
   text-align: center;
-  z-index: 2;
+  font-size: 18px;
+}
+
+.workflow__img{
+  margin-top: 34px;
+}
+
+.workflow__number{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffcc01;
+  color: #ffffff;
+  line-height: 20px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.workflow__definition{
+  font-size: 18px;
+  color: #0d253e;
+  opacity: 0.4;
 }

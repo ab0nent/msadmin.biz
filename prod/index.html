@@ -9,53 +9,187 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 <header class="header">
     <div class="main-width">
-        <a href="#" class="header__logo">
+        <a href="#top" class="header__logo js-scrolled">
             <img src="img/ic_cloud_done_white_48px.svg" class="header__image">
         </a>
-        <a href="" class="btn__contacts">Contact us</a>
+        <a href="" class="btn btn_contacts">Contact us</a>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#workflow" class="nav__link scrolled">Workflow</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link scrolled">Services</a></li>
-                <li class="nav__item"><a href="#price" class="nav__link scrolled">Price</a></li>
+                <li class="nav__item"><a href="#workflow" class="nav__link js-scrolled">Workflow</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link js-scrolled">Services</a></li>
+                <li class="nav__item"><a href="#price" class="nav__link js-scrolled">Price</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
-<section id="top">
+<section id="top" class="top">
     <h1 class="top__header">IT consulting<br>for business and technology services</h1>
-    <a href="#" class="btn__primary">GET AN IT CONSULTANT</a>
+    <a href="#" class="btn btn_primary">GET AN IT CONSULTANT</a>
 </section>
-<div class="main-width">
-    <section id="workflow">
+
+<section id="workflow" class="workflow main-width">
+    <div class="">
         <h1 class="workflow__header">Consulting workflow</h1>
-        <h2 class="workflow__description">Temporary help during a one-time project where the hiring<br>of a permanent employee(s) is not required or necessary</h2>
-        <div class="workflow__chart clearfix">
-            <div class="workflow__box_first"></div>
-            <div class="workflow__box_second"></div>
-            <ul class="workflow__list">
-                <li class="workflow__item">1</li>
-                <li class="workflow__item">2</li>
-                <li class="workflow__item">3</li>
-                <li class="workflow__item">4</li>
-                <li class="workflow__item">5</li>
-                <li class="workflow__item">6</li>
+        <h2 class="workflow__description">Temporary help during a one-time project where the hiring<br>of a permanent
+            employee(s) is not required or necessary</h2>
+        <ul class="workflow__list clearfix">
+            <li class="workflow__item">
+                <a href="#" class="workflow__link">
+                    <img src="img/workflow/specification.svg" alt="" class="workflow__img">
+                    <span class="workflow__number">1</span>
+                </a>
+                <div class="workflow__definition">
+                    Provide us project specification
+                </div>
+            </li>
+            <li class="workflow__item">
+                <a href="#" class="workflow__link">
+                    <img src="img/workflow/proposal.svg" alt="" class="workflow__img">
+                    <span class="workflow__number">2</span>
+                </a>
+                <div class="workflow__definition">
+                    Provide you our commercial proposal
+                </div>
+            </li>
+            <li class="workflow__item">
+                <a href="#" class="workflow__link">
+                    <img src="img/workflow/sign.svg" alt="" class="workflow__img">
+                    <span class="workflow__number">3</span>
+                </a>
+                <div class="workflow__definition">
+                    Sign an agreement with us
+                </div>
+            </li>
+            <li class="workflow__item">
+                <a href="#" class="workflow__link">
+                    <img src="img/workflow/implement.svg" alt="" class="workflow__img">
+                    <span class="workflow__number">4</span>
+                </a>
+                <div class="workflow__definition">
+                    Implement project and create documentation
+                </div>
+            </li>
+            <li class="workflow__item">
+                <a href="#" class="workflow__link">
+                    <img src="img/workflow/handover.svg" alt="" class="workflow__img">
+                    <span class="workflow__number">5</span>
+                </a>
+                <div class="workflow__definition">
+                    Hand over the project into operation
+                </div>
+            </li>
+            <li class="workflow__item">
+                <a href="#" class="workflow__link">
+                    <img src="img/workflow/payment.svg" alt="" class="workflow__img">
+                    <span class="workflow__number">6</span>
+                </a>
+                <div class="workflow__definition">
+                    Payment according to commercial proposal
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</section>
+
+<section id="services" class="services clearfix">
+    <div class="services__background">
+        <div class="main-width">
+            <h1 class="services__header">Our main services<br>for your business</h1>
+
+            <a href="" class="btn btn_services">GET SERVICES</a>
+
+            <ul class="services__list">
+                <li class="services__item">
+                    <h2 class="services__name">Project scoping and planning</h2>
+                    <div class="services__description">
+                        The usual problem is that a business owner doesn't know the
+                        detail of what the project is going to
+                        deliver until it starts the process.
+                    </div>
+                </li>
+                <li class="services__item">
+                    <h2 class="services__name">Business process and system design</h2>
+                    <div class="services__description">
+                        The scope of a project is linked intimately to
+                        the proposed business processes and systems that
+                        the project is going to deliver.
+                    </div>
+                </li>
+                <li class="services__item">
+                    <h2 class="services__name">Project management support</h2>
+                    <div class="services__description">
+                        The most successful business projects are always those
+                        that are driven by an employee who has the
+                        authority, vision and influence to drive the required
+                        changes in a business.
+                    </div>
+                </li>
             </ul>
+
         </div>
-    </section>
-    <section id="services">
-        section3
+    </div>
+</section>
 
-    </section>
-    <section id="price">
-        section4
+<section id="price" class="price main-width">
+    <h1 class="price__header">Consulting fees</h1>
+    <h2 class="price__description">
+        Under normal circumstances a fee for IT consulting is measured on a per day, per consultant basis.<br>
+        There is however an alternative option; fixed fee IT consulting.<br>
+        A fixed fee IT consulting contract applies only to projects which are well defined.
+    </h2>
+    <div class="clearfix">
+        <div class="price__box price__box_daily">
+            <div class="price__type">
+                <div class="price__title">DAILY</div>
+                <div class="price__fee">200 &euro;</div>
+                <div class="price__definition"> cost per day</div>
+            </div>
+            <ul class="price__list">
+                <li class="price__item">Advisory</li>
+                <li class="price__item">Design</li>
+                <li class="price__item">Implementation</li>
+                <li class="price__item">Optimization</li>
+            </ul>
+            <a href="" class="btn btn_order">CONTACT SALES</a>
+        </div>
+        <div class="price__box price__box_fixed">
+            <div class="price__type">
+                <div class="price__title">FIXED</div>
+                <div class="price__fee">CUSTOM</div>
+                <div class="price__definition">defined by agreement</div>
+            </div>
+            <ul class="price__list">
+                <li class="price__item">Advisory</li>
+                <li class="price__item">Design</li>
+                <li class="price__item">Implementation</li>
+                <li class="price__item">Optimization</li>
+            </ul>
+            <a href="" class="btn btn_order">CONTACT SALES</a>
+        </div>
+    </div>
 
-    </section>
-</div>
+    <ul class="price__help-list ">
+        <li class="price__help-item"><a href="" class="price__help-link">
+            <img src="img/help/maximize.svg" alt="" class="price__help-img"></a>
+            Maximize Return
+        </li>
+        <li class="price__help-item">
+            <img src="img/help/optimize.svg" alt="" class="price__help-img"></a>
+            Optimize Security
+        </li>
+        <li class="price__help-item">
+            <img src="img/help/minimize.svg" alt="" class="price__help-img"></a>
+            Minimize Risk
+        </li>
+    </ul>
+
+</section>
 
 <footer class="footer">
     <div class="main-width">
@@ -63,7 +197,7 @@
     </div>
 </footer>
 
-<a class="btn-up scrolled" href="#top">
+<a class="btn btn_up js-scrolled" href="#top">
     <svg fill="#FFFFFF" height="40" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg">
         <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
         <path d="M0 0h24v24H0z" fill="none"></path>

@@ -1,6 +1,3 @@
-/**
- * Created by kameron on 30.11.2016.
- */
 (function() {
     var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
         bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },

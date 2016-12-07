@@ -1,4 +1,20 @@
-.btn-up{
+.btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  transition:
+          background-color .3s ease-in-out,
+          color .3s ease-in-out;
+  &:hover{
+    transition:
+          background-color .3s ease-in-out,
+          color .3s ease-in-out;
+  }
+}
+
+.btn_up{
   visibility: hidden;
   position: fixed;
   right: 20px;
@@ -10,61 +26,79 @@
   background-color: #ffcc01;
   box-shadow: 0 0 20px 0 rgba(254, 203, 0, 0.4);
   z-index: 5;
-  transition: all 1s;
+  transition:
+          visibility .7s ease-in-out,
+          opacity .7s ease-in-out;
+  &:hover{
+    background-color: #cc9900;
+  }
 }
 
-.btn__contacts{
+.btn_contacts{
   float: right;
-  display: block;
   margin: 10px 0;
-  width: 167px;
-  height: 56px;
+  line-height: 20px;
+  padding: 18px 25px;
   border-radius: 4px;
   background-color: #ffcc01;
   box-shadow: 0 0 20px 0 rgba(254, 203, 0, 0.4);
-  line-height: 56px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 1px;
-  color: #ffffff;
-  transition: all 0.4s;
+  &:hover{
+    color: #000;
+    background-color: #cc9900;
+  }
 }
 
-.btn__contacts:hover{
-  color: #000;
-  background-color: #cc9900;
-  transition: all 0.4s;
-}
-
-.btn__primary{
+.btn_primary{
   margin: 65px auto;
-  display: block;
-  width: 337px;
-  height: 64px;
+  line-height: 20px;
+  padding: 20px 35px;
   border-radius: 4px;
   background-color: #1e88f5;
   box-shadow: 0 0 30px 0 rgba(30, 136, 245, 0.9);
-  line-height: 64px;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: center;
-  letter-spacing: 1px;
-  color: #ffffff;
-  transition: all 0.4s;
+  &:hover{
+    background-color: #1e56f6;
+  }
 }
 
-.btn__primary:hover{
-  background-color: #1e56f6;
-  transition: all 0.4s;
+.btn_services{
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 20px;
+  padding: 20px 35px;
+  border-radius: 4px;
+  background-color: #ffcc01;
+  box-shadow: 0 0 20px 0 rgba(254, 203, 0, 0.4);
+  &:hover{
+    color: #000;
+    background-color: #cc9900;
+  }
 }
 
-.visible{
+.btn_order{
+  padding: 20px 50px;
+  margin-top: 30px;
+}
+
+.price__box_fixed{
+  & .btn_order{
+    border-radius: 4px;
+    background-color: #ffcc01;
+    box-shadow: 0 0 20px 0 rgba(254, 203, 0, 0.4);
+  }
+}
+
+.price__box_daily{
+  & .btn_order{
+    border-radius: 4px;
+    background-color: #1e88f5;
+    box-shadow: 0 0 20px 0 rgba(30, 136, 245, 0.4);
+  }
+}
+
+.btn_visible{
   visibility: visible;
   opacity: 0.7;
-  transition: all 1s;
+  transition:
+          visibility .7s ease-in-out,
+          opacity .7s ease-in-out;
 }

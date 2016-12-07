@@ -1,0 +1,97 @@
+.price{
+  text-align: center;
+}
+
+.price__header{
+  padding-top: 85px;
+  font-size: 38px;
+  font-weight: 300;
+  text-align: center;
+  color: #0d253e;
+}
+
+.price__description{
+  padding-top: 20px;
+  opacity: 0.4;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #0d253e;
+}
+
+.price__box{
+  display: block;
+  margin: 30px;
+  width: 40%;
+  height: 600px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 60px 10px rgba(13, 36, 62, 0.05);
+  border: solid 1px #eeeeee;
+}
+
+.price__box_daily{
+  margin-left: 5%;
+  float: left;
+  & .price__type{
+    background-color: #1e88f5;
+    box-shadow: 0 2px 30px 0 rgba(30, 136, 245, 0.3);
+  }
+  & .price__list{
+    list-style:  square url("../img/done_daily.svg");
+  }
+}
+
+.price__box_fixed{
+  margin-right: 5%;
+  float: right;
+  & .price__type{
+    background-color: #ffcc01;
+    box-shadow: 0 2px 30px 0 rgba(255, 203, 0, 0.3);
+  }
+  & .price__list{
+    list-style:  square url("../img/done_fixed.svg");
+  }
+}
+
+.price__title{
+  padding-top: 50px;
+  line-height: 30px;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #ffffff;
+}
+
+.price__fee{
+  padding-top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price__definition{
+  padding: 25px 0 30px 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price__list{
+  margin: 25px 0 0 80px;
+}
+
+.price__item{
+  margin-top: 25px;
+  opacity: 0.9;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.36;
+  text-align: left;
+  color: #0d253e;
+}
