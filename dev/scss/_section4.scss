@@ -1,5 +1,21 @@
 .price{
   text-align: center;
+
+  & .list{
+    margin-bottom: 50px;
+  }
+
+  & .list__item{
+    display: inline-block;
+
+    & div{
+      opacity: 0.4;
+      font-size: 22px;
+      font-weight: 300;
+      text-align: center;
+      color: #0d253e;
+    }
+  }
 }
 
 .price__header{
@@ -94,21 +110,4 @@
   line-height: 1.36;
   text-align: left;
   color: #0d253e;
-}
-
-
-.price__help-list{
-  margin-bottom: 50px;
-}
-
-.price__help-item{
-  display: inline-block;
-
-  & div{
-    opacity: 0.4;
-    font-size: 22px;
-    font-weight: 300;
-    text-align: center;
-    color: #0d253e;
-  }
 }

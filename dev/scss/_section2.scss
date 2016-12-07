@@ -1,3 +1,24 @@
+.workflow{
+  & .list__item{
+    display: block;
+    float: left;
+    margin-bottom: 40px;
+    height: 200px;
+    text-align: center;
+
+    &:first-child .list__link,
+    &:last-child .list__link{
+      background-color: #1e88f5;
+    }
+  }
+
+  & .list__link{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
 .workflow__header{
   padding-top: 85px;
   font-size: 38px;
@@ -16,25 +37,6 @@
   line-height: 1.36;
   text-align: center;
   color: #0d253e;
-}
-
-.workflow__item{
-  display: block;
-  float: left;
-  margin-bottom: 40px;
-  height: 200px;
-  text-align: center;
-
-  &:first-child .workflow__link,
-  &:last-child .workflow__link{
-    background-color: #1e88f5;
-  }
-}
-
-.workflow__link{
-  position: relative;
-  text-align: center;
-  font-size: 18px;
 }
 
 .workflow__number{
