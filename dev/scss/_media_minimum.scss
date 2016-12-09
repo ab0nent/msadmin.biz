@@ -1,0 +1,60 @@
+@media (max-width: 550px) {
+  .header{
+    display: none;
+  }
+
+  .top__header{
+    padding-top: 125px;
+  }
+
+  .services__header,
+  .btn_services{
+    display: none;
+  }
+
+  .list__item{
+    width: 100%;
+  }
+
+  .services__list{
+    right: 0;
+    left: 0;
+  }
+
+  .services__item {
+    margin: 20px auto 0 auto;
+    width: 270px;
+    padding: 45px 10px 10px 10px;
+    text-align: center;
+  }
+
+  .services__name{
+    font-size: 20px;
+  }
+
+  .services__description{
+    font-size: 14px;
+  }
+
+  .price__box{
+    float: none;
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .price__fee{
+    font-size: 50px;
+  }
+
+  .price__item{
+    font-size: 18px;
+  }
+
+  .btn_order{
+    font-size: 15px;
+  }
+
+  .footer__contacts{
+    display: none;
+  }
+}

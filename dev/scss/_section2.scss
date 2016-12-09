@@ -1,44 +1,24 @@
-.workflow{
-  & .list__item{
+.workflow {
+  & .list__item {
     float: left;
     margin-bottom: 40px;
     height: 200px;
     text-align: center;
 
     &:first-child .list__link,
-    &:last-child .list__link{
+    &:last-child .list__link {
       background-color: #1e88f5;
-    }
-
-    & div{
-      font-size: 18px;
-      color: #0d253e;
-      opacity: 0.4;
     }
   }
 
-  & .list__link{
+  & .list__link {
     position: relative;
     text-align: center;
     font-size: 18px;
-
-    & span{
-      position: absolute;
-      top:0;
-      right: 0;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: #ffcc01;
-      color: #ffffff;
-      line-height: 20px;
-      padding: 10px 0;
-      text-align: center;
-    }
   }
 }
 
-.workflow__header{
+.workflow__header {
   padding-top: 85px;
   font-size: 38px;
   font-weight: 300;
@@ -48,7 +28,7 @@
   color: #0d253e;
 }
 
-.workflow__description{
+.workflow__description {
   padding-top: 20px;
   opacity: 0.4;
   font-size: 22px;

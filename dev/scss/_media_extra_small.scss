@@ -1,0 +1,46 @@
+@media (min-width: 550px) and (max-width: 768px)  {
+  .header{
+    display: none;
+  }
+
+  .services__header,
+  .btn_services{
+    display: none;
+  }
+
+  .list__item{
+    width: 50%;
+  }
+
+  .services__list{
+    right: 0;
+    left: 0;
+  }
+
+  .services__item {
+    margin: 20px auto 0 auto;
+    width: 80%;
+  }
+
+  .services__name{
+    font-size: 22px;
+  }
+
+  .services__description{
+    font-size: 18px;
+  }
+  .price__box{
+    float: none;
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .price__item{
+    font-size: 18px;
+  }
+
+  .footer__contacts{
+    display: none;
+  }
+
+}

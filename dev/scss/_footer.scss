@@ -4,6 +4,9 @@
   background-color: #455466;
   color: #ffffff;
   text-shadow: 0 0 50px #fff;
+  & .main-width{
+    padding: 0;
+  }
 }
 
 .footer__contacts,
