@@ -14,6 +14,7 @@
 
   .list__item{
     width: 100%;
+    margin-top: 40px;
   }
 
   .services__list{
@@ -56,5 +57,15 @@
 
   .footer__contacts{
     display: none;
+  }
+
+  .modal__content{
+    width: 300px;
+  }
+
+  .modal__item{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
   }
 }
