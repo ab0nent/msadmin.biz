@@ -1,23 +1,27 @@
 @media (max-width: 550px) {
-  .header{
+  .header {
     display: none;
   }
 
-  .top__header{
+  .mobile-menu {
+    display: block;
+  }
+
+  .top__header {
     padding-top: 125px;
   }
 
   .services__header,
-  .btn_services{
+  .btn_services {
     display: none;
   }
 
-  .list__item{
+  .list__item {
     width: 100%;
     margin-top: 40px;
   }
 
-  .services__list{
+  .services__list {
     right: 0;
     left: 0;
   }
@@ -29,41 +33,41 @@
     text-align: center;
   }
 
-  .services__name{
+  .services__name {
     font-size: 20px;
   }
 
-  .services__description{
+  .services__description {
     font-size: 14px;
   }
 
-  .price__box{
+  .price__box {
     float: none;
     width: 80%;
     margin: 30px auto;
   }
 
-  .price__fee{
+  .price__fee {
     font-size: 50px;
   }
 
-  .price__item{
+  .price__item {
     font-size: 18px;
   }
 
-  .btn_order{
+  .btn_order {
     font-size: 15px;
   }
 
-  .footer__contacts{
+  .footer__contacts {
     display: none;
   }
 
-  .modal__content{
+  .modal__content {
     width: 300px;
   }
 
-  .modal__item{
+  .modal__item {
     display: block;
     width: 100%;
     margin: 0 auto;

@@ -96,3 +96,23 @@
   }
 }
 
+.btn_menu{
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #1e88f5;
+  box-shadow: 0 0 30px 0 rgba(30, 136, 245, 0.9);
+  z-index: 11;
+  transition:
+          visibility .7s ease-in-out,
+          opacity .7s ease-in-out;
+  &:hover{
+    background-color: #1e56f6;
+  }
+}
+
+

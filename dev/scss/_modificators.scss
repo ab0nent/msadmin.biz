@@ -6,6 +6,18 @@
           opacity .7s ease-in-out;
 }
 
+.btn_hidden{
+  visibility: hidden;
+  opacity: 0;
+  transition:
+          visibility .7s ease-in-out,
+          opacity .7s ease-in-out;
+}
+
 .display_block{
   display: block;
+}
+
+.display_none{
+  display: none;
 }

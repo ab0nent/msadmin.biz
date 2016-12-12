@@ -14,6 +14,7 @@ const mincss = require("gulp-minify-css");
 const uglify = require("gulp-uglify");
 const concat = require("gulp-concat");
 const imagemin = require('gulp-imagemin');
+const htmlmin = require('gulp-htmlmin');
 
 //in command line "set NODE_ENV=prod" or "set NODE_ENV=dev"
 const  isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'dev';
@@ -38,11 +39,13 @@ gulp.task('scss', function () {
 
 gulp.task('html', function () {
     return gulp.src('dev/*.html', {since: gulp.lastRun('html')})
+        .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('prod'))
 });
 
 gulp.task('js', function () {
     return gulp.src('dev/js/**/*.js')
+        .pipe(concat('main.min.js'))
         .pipe(gulpIf(!isDevelopment,uglify()))
         .pipe(gulp.dest('prod/js'))
 });
