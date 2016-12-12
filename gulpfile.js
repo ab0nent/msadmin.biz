@@ -58,6 +58,7 @@ gulp.task('img', function () {
 
 gulp.task('css', function () {
     return gulp.src('dev/css/**/*.*', {since: gulp.lastRun('css')})
+        .pipe(concat('styles.min.css'))
         .pipe(gulpIf(!isDevelopment,mincss()))
         .pipe(gulp.dest('prod/css'))
 });
