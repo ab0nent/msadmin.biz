@@ -81,15 +81,15 @@ a {
   vertical-align: middle; }
 
 .nav {
-  float: right;
-  margin-right: 4px; }
+  float: right; }
 
 .nav__list {
   margin: 10px 0;
   height: 56px; }
 
 .nav__item {
-  display: inline-block; }
+  display: inline-block;
+  margin-right: 4px; }
 
 .nav__link {
   display: inline-block;

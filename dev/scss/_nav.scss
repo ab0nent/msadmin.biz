@@ -1,6 +1,5 @@
 .nav{
   float: right;
-  margin-right: 4px;
 }
 
 .nav__list{
@@ -10,6 +9,7 @@
 
 .nav__item{
   display: inline-block;
+  margin-right: 4px;
 }
 
 .nav__link{
